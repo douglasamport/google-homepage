@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-div {
+    display: inline-block;
+    position: relative;
+    height: 180px;
+    width: 500px;
+    line-height: 180px;
+}
+
+img.logo-div {
+    padding-top: 21px;
+}
+
+.social-div {
+    display: block;
+    background-color:#ffffff;
+    border; 2px solid #ffffff;
+    border-radius: 6px;
+    left: 455px;
+    top: 162px;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    vertical-align: bottom;
+    opacity: 0.8;
+}
+
+.social-div:hover{
+    opacity: 1;
+}
+
+.social {
+    position: absolute;
+    border: "0";
+    height: 22px;
+    width: 22px;
+    left: 2px;
+    top: 2px;
+    vertical-align: bottom;
+
+}
+
+.head-text {
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{ 
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+.apps-icon {
+    display: block;
+    position: relative;
+    opacity: .5;
+}
+
+.apps-icon:hover {
+    opacity: 1;
+}
+
+.apps {
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    flex: 0 1 auto;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+}
