@@ -5,7 +5,6 @@ body {
 .center {
     display: flex;
     justify-content: center;
-
 }
 
 .logo-div {
@@ -71,10 +70,44 @@ a:visited{
     text-decoration: underline;
 }
 
+.head-link {
+    display: inline-block;
+    padding-left: 15px;
+    color: black;
+    opacity: .75;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
 .apps-icon {
     display: block;
     position: relative;
     opacity: .5;
+    width: 30px;
+    height: 30px;
+    padding-left:7px;
+    padding-top: 10px;
+    font-size: 17px;
+    vertical-align: middle;
 }
 
 .apps-icon:hover {
@@ -96,6 +129,29 @@ a:visited{
     color: black;
     cursor: pointer;
     text-decoration: none;
-    
+   
+}
 
+#app-img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.user-icon-top {
+    display: inline-block;
+    position: relative;
+    padding-left: 7px;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: left;
+}
+
+.user-icon {
+    flex: 0 1 auto;
+    padding-top: 5px;
+}
+
+.user {
+    border-radius: 50%;
 }
